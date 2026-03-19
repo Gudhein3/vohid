@@ -6,14 +6,13 @@ Yet another thing for typing.
 $ uname
 ```
 If the output is not "Linux" or if your MS Windows system yaps on this command, you're not using Linux. \
-WSL also won't work because it's just a virtual machine that doesn't have full access to devices.
-2. Install requirements
-If you prefer pip more than apt, find the commands by yourself.
+WSL also won't work because it's just a virtual machine that doesn't have full access to devices. \
+2. Install requirements \
+If you prefer pip more than apt, find the command by yourself.
 ```
-# apt install python3-pygame
-# apt install python3-evdev
+# apt install python3-pygame python3-evdev
 ```
-3. You have to have the permissions
+3. You have to have the permissions \
 Also ensure that you have raw access to "/dev/input/event*".
 ```
 $ ls -ll /dev/input/event0
